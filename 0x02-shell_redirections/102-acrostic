@@ -1,2 +1,2 @@
 #!/bin/bash
-find -type f -name "*.gif" | rev | cut
+cut -c 1 | paste -s -d ' '
